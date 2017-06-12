@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Terra Kulture Show Booking</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/style.css">
+        <!--link rel="stylesheet" href="css/index.css"-->
+        <link rel='stylesheet' id='font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+        <link href="css/carousel.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Navbar
+================================================== -->
+        <div class="navbar-wrapper">
+            <div class="container">
+                <nav class="navbar navbar-dark bg-inverse navbar-full">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo.png" width="77.6" height="44" alt="TerraKulture">
+                            </a>
+                        </div>
+                        <div id="navbar" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="nowShowing.html">NOW SHOWING</a></li>
+                                <li class="active"><a href="#">CONTACT</a></li>
+                                <li class="header-ticket"><a class="ticket-btn" href="ticket.html">TICKET</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Jumbotron
+================================================== -->
+        <section>
+            <!-- Main jumbotron for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Contact</h1>
+                    <p>Home / <span>Contact Us</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Table
+================================================== -->
+        <section class="showtable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-area">  
+                            <h2 class="intro-title2">Send Message</h2>
+                            <form id="contact-form" method="post" action="contact.php" role="form">
+                                <div class="messages"></div>
+                                <div class="controls">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_name" class="control-label">NAME *</label>
+                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required.">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_email" class="control-label">EMAIL *</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message" class="control-label">MESSAGE *</label>
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for us" rows="10" required="required" data-error="Please,leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn btn-success btn-send pull-right bookticket" value="SEND">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="addressbar">
+                            <h3 class="headerline"> <i class="fa fa-map"></i>  &nbsp;&nbsp;  Address</h3>
+                            <p class="desc">Plot 123, Tiamiyu Savage <br> Victoria Island, Lagos</p>
+                        </div>
+                        <div class="addressbar">
+                            <h3 class="headerline"> <i class="fa fa-envelope"></i>  &nbsp;&nbsp;  Email</h3>
+                            <p class="desc">info@terratickets.com</p>
+                        </div>
+                        <div class="addressbar">
+                            <h3 class="headerline"> <i class="fa fa-phone-square"></i>  &nbsp;&nbsp;  Phone</h3>
+                            <p class="desc">+234 087 123456, <br>
+                                            +234 089 123789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer
+================================================== -->
+        <section>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 footerleft ">
+                            <div class="logofooter"> About TerraKulture </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. Integer consequat efficitur lectus, a tincidunt 
+                                ex molestie at lectus, a tincidunt ex molestie at. 
+                                Lorem ipsum dolor sit amet, consectetur  adipiscing elit. 
+                                Integer consequat efficitur lectus, a tincidunt ex molestie at 
+                                lectus, a tincidunt ex molestie at. </p>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6 paddingtop-bottom-mid">
+                            <p>
+                                <img src="images/phone%20icon.png" width="30px" alt=""> &nbsp; +234 123 456 789
+                            </p>
+                            <p>
+                                <img src="images/world%20icon.png" width="30px" alt=""> &nbsp; info@terratickets.com
+                            </p>
+                            <br>
+                            <p>
+                                Get Social with us
+                            <p class="socialmedia">
+                                <a href="#"><i class="fa fa-facebook"></i></a> 
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </p>
+
+
+                            </p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 paddingtop-bottom">
+                        <p>Subscribe to our newsletter</p>
+                        <form action="/subscribe" method="post" class="subscribe-form">
+                            <input type="email" name="email" class="subscribe-input" placeholder=" your email">
+                            <button type="submit" class="subscribe-submit">SEND</button>
+                        </form>
+                    </div>
+
+                </div>
+                </div>
+            </footer> <!-- End of footer -->
+
+
+        <!-- Sub footer
+================================================== -->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>© 2017 TerraTickets. All Rights reserved</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

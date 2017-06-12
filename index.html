@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Terra Kulture Show Booking</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/style.css">
+        <!--link rel="stylesheet" href="css/index.css"-->
+        <link rel='stylesheet' id='font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+        <link href="css/carousel.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Navbar
+================================================== -->
+        <div class="navbar-wrapper">
+            <div class="container">
+                <nav class="navbar navbar-dark bg-inverse navbar-full ">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo.png" width="77.6" height="44" alt="TerraKulture">
+                            </a>
+                        </div>
+                        <div id="navbar" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#">HOME</a></li>
+                                <li><a href="nowShowing.html">NOW SHOWING</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                                <li class="header-ticket"><a class="ticket-btn" href="ticket.html">TICKET</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Carousel
+================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="first-slide" src="images/events1.jpg" alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="display-3"> SARO </h1>the musical
+                            <p><img src="images/Line 7.png" width="3" height="26" alt="divider"> &nbsp; 24 - 29 AUGUST 
+                                &nbsp; <img src="images/Line 7.png" width="3" height="26" alt="divider"> &nbsp; LONDON   
+                                &nbsp; <img src="images/Line 7.png" width="3" height="26" alt="divider"> &nbsp; THE SHAW THEATRE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="second-slide" src="images/events2.jpg" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="third-slide" src="images/events3.jpg" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div><!-- carousel end -->
+
+        <!-- Countdown
+================================================== -->
+
+        <section class="countdown-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1 calicon">
+                        <img src="images/calendar%20icon.png" width="60px" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <h2 class="text-left">NEXT UPCOMING SHOW</h2>
+                        </div>
+                        <div class="next-show">
+                            <p style="text-align: left">SARO THE MUSICAL, LIVE in LONDON
+                                <img src="images/Line 7.png" width="3" height="20" alt="divider"><span> LONDON, THE SHAW THEATRE </span></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="countdown">
+                            <div class="counter-day">
+                                <span class="days">00</span>
+                                <div class="smalltext">Days</div>
+                            </div>
+                            <div class="counter-hour">
+                                <span class="hours">00</span>
+                                <div class="smalltext">Hours</div>
+                            </div>
+                            <div class="counter-minute">
+                                <span class="minutes">00</span>
+                                <div class="smalltext">Minutes</div>
+                            </div>
+                            <div class="counter-second">
+                                <span class="seconds">00</span>
+                                <div class="smalltext">Seconds</div>
+                            </div>
+                        </div><!-- Countdown end -->
+                        <a href="ticket.html"><button type="button" class="btn ticket-detail">TICKETS AND DETAILS</button></a>
+                    </div><!-- Col end -->
+                </div><!-- Row end -->
+            </div><!-- Container end -->
+        </section><!-- Countdown end -->
+        <br>
+        <br>
+        <!-- Upcoming Shows
+================================================== -->
+
+        <section id="ts-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="intro-content">
+                            <h2 class="intro-title">UPCOMING SHOWS</h2>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>THU-Aug 24, 2017</td>
+                                            <td>London, UK</td>
+                                            <td>SARO, the musical</td>
+                                            <td><a class="btn btn-sm booking" href="ticket.html" role="button">BUY TICKETS</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>FRI-Aug 25, 2017</td>
+                                            <td>London, UK</td>
+                                            <td>SARO, the musical</td>
+                                            <td><a class="btn btn-sm booking" href="ticket.html" role="button">BUY TICKETS</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>SAT-Aug 26, 2017</td>
+                                            <td>London, UK</td>
+                                            <td>SARO, the musical</td>
+                                            <td><a class="btn btn-sm booking" href="ticket.html" role="button">BUY TICKETS</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>SUN-Aug 27, 2017</td>
+                                            <td>Lagos, NIGERIA</td>
+                                            <td>FELA, the musical</td>
+                                            <td><a class="btn btn-sm btn-sold-out" href="ticket.html" role="button">SOLD OUT</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>MON-Aug 28, 2017</td>
+                                            <td>Lagos, NIGERIA</td>
+                                            <td>FELA, the musical</td>
+                                            <td><a class="btn btn-sm btn-cancelled" href="ticket.html" role="button">CANCELLED!</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>TUE-Aug 29, 2017</td>
+                                            <td>Lagos, NIGERIA</td>
+                                            <td>FELA, the musical</td>
+                                            <td><a class="btn btn-sm booking" href="ticket.html" role="button">BUY TICKETS</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>     
+                        </div>
+                    </div> <!--col end-->
+
+                    <div class="col-md-6">
+                        <div class="featured-tab">
+                            <h3 class="intro-title">SHOW SCHEDULE</h3>
+                            <img src="images/saronew.png" alt="" width="100%">
+                            <div>&nbsp;</div>
+                            <div class="show-date"><img src="images/Line 7.png" width="6" height="26" alt="divider"> &nbsp; Thursday, 24 Aug 2017 
+                            </div>
+                            <div class="schedule-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat illo pariatur architecto placeat, repudiandae quibusdam distinctio facere nemo rem eveniet hic quod corporis totam officiis excepturi, aliquid consectetur labore quidem.
+                            </div>
+                            <div>&nbsp;</div>
+                            <div class="table-schedule">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>08:00</td>
+                                            <td>Morning Show</td>
+                                        </tr>
+                                        <tr>
+                                            <td>14:30</td>
+                                            <td>Afternoon Show</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19:00</td>
+                                            <td>Evening Show</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div><!-- Featured tab end -->
+                    </div><!-- Col end -->
+
+
+                </div> <!--row end-->
+            </div>
+        </section><!-- Upcoming shows -->
+
+        <!-- Fun Facts
+================================================== -->
+        <section id="funfacts">
+            <div class="container dad" style="width: 100%; padding: 0;">
+                <div class="row" style="margin: 60px 0; text-align: center;">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: center;">
+                        <div class="item">
+                            <i class="fa fa-users"></i>
+                            <div class="desc">
+                                <p class="number">1002</p>
+                                <p class="description">AUDIENCES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: center;">
+                        <div class="item">
+                            <i class="fa fa-film"></i>
+                            <div class="desc">
+                                <p class="number">50</p>
+                                <p class="description">SHOWS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: center;">
+                        <div class="item">
+                            <i class="fa fa-calendar-check-o"></i>
+                            <div class="desc">
+                                <p class="number">120</p>
+                                <p class="description">DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: center;">
+                        <div class="item">
+                            <i class="fa fa-certificate"></i>
+                            <div class="desc">
+                                <p class="number">126</p>
+                                <p class="description">PROGRAMS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Fun Facts -->
+
+        <!-- Footer
+================================================== -->
+        <section id="footersection">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 footerleft ">
+                            <div class="logofooter"> About TerraKulture </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. Integer consequat efficitur lectus, a tincidunt 
+                                ex molestie at lectus, a tincidunt ex molestie at. 
+                                Lorem ipsum dolor sit amet, consectetur  adipiscing elit. 
+                                Integer consequat efficitur lectus, a tincidunt ex molestie at 
+                                lectus, a tincidunt ex molestie at. </p>
+
+                        </div>
+                        <div class="col-md-3 col-sm-4 paddingtop-bottom-mid">
+                            <p>
+                                <img src="images/phone%20icon.png" width="30px" alt=""> &nbsp; +234 123 456 789
+                            </p>
+                            <p>
+                                <img src="images/world%20icon.png" width="30px" alt=""> &nbsp; info@terratickets.com
+                            </p>
+                            <br>
+                            <p>
+                                Get Social with us
+                            <p class="socialmedia">
+                                <a href="#"><i class="fa fa-facebook"></i></a> 
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </p>
+
+
+                            </p>
+                    </div>
+                        <div class="col-md-4 col-sm-4 paddingtop-bottom">
+                        <p>Subscribe to our newsletter</p>
+                        <form action="/subscribe" method="post" class="subscribe-form">
+                            <input type="email" name="email" class="subscribe-input" placeholder=" your email">
+                            <button type="submit" class="subscribe-submit">SEND</button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </footer> <!-- End of footer -->
+        <!-- Sub footer
+================================================== -->
+
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-12">
+                        <p>© 2017 TerraTickets. All Rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Subfooter -->
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>
