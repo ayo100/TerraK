@@ -796,6 +796,25 @@ footer {
 
 <!-- Seats
 ================================================== -->
+{}
+#square1 {
+    width: 12px;
+    height: 12px;
+    background: #79AB7E;
+    margin-top: 20px;
+}
+#square2 {
+    width: 12px;
+    height: 12px;
+    background: #3EBEEE;
+    margin-top: 20px;
+}
+#square3 {
+    width: 12px;
+    height: 12px;
+    background: #D95570;
+    margin-top: 20px;
+}
 
 #seatbox1 p,
 #seatbox2 p,
@@ -831,3 +850,118 @@ footer {
     vertical-align: top;
     margin-left: 5px;
     font-family: 'Segoe UI','Open Sans', sans-serif;
+}
+.seat-tckt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.seat-tckt span{
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Segoe UI','Open Sans', sans-serif;
+}
+
+<!-- Contact Information
+================================================== 
+-->
+{  
+}
+
+.show-tckt span{
+    font-size: 9px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: 'Segoe UI','Open Sans', sans-serif;
+}
+
+.show-tckt totprice,
+.show-tckt show{
+    color: #ea531c;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: 'Segoe UI','Open Sans', sans-serif;
+}
+
+.card{
+    padding-left: 20px;
+    width: 60px;
+}
+ 
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.input-group-addon{
+    background-color: #616161;
+    color: #fff;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon .glyphicon {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon{
+    color: #2580db;
+}
+
+.purchaseticket {
+    border-radius: 5px;
+    color:#FFF;
+    font-size: 15px;
+    font-weight:bold;
+    vertical-align: middle;
+    background: #ea531c;
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+    
+    
+    
